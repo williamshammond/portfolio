@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Coral Health Identifier</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
+						<a href="index.html" class="logo"><strong>Portfolio</strong> <span>William Hammond</span></a>
+					</header>
+
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style9">
+						<div class="inner">
+							<span class="image">
+								<img src="images/coralprogression5.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>Coral Health Identifier</h1>
+							</header>
+							<div class="content">
+								<p>A computer vision project for Columbia Univeristy Robotics Club</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>The Task</h2>
+									</header>
+									<p>My subteam's task for this project was to identify coral growth, death, bleaching, and recovery based on simulated coral colonies in a pool environment. The program we created will be used to Identify
+                                        the changes in a simulated coral colony from a before image and an after image that will eventually be taken by our team's remotely operated underwater vehicle.
+                                    </p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+									<a href="generic.html" class="image">
+										<img src="images/differenceprogression.jpg" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>The Solution</h3>
+											</header>
+											<p>We used OpenCV to separate various features out from both the before and after images with specified HSV ranges. We alligned the two images using feature based image allignment. We found differences between alligned features and
+                                                created homogenous "blocks" of our difference values to identify clear areas of change. Finally, we made use of logical operations to identify specific features such as growth and death. 
+                                                Due to our use of HSV image processing as well as the "blocking" step of the program, the process is robust and deals with the distortion and image tint that will accompany the images that will eventually be taken by our rover.
+                                            </p>
+											<ul class="actions">
+												<li><a href="generic.html" class="button">GitHub Repository</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="https://www.columbiaroboticsclub.com/" class="image">
+										<img src="images/materov.jpeg" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>MATE-ROV Challenge</h3>
+											</header>
+											<p>This program was developed as a small part of the work of the software development team for Columbia
+												University Robotics Club (CURC). Our club has been working towards competing in the MATE-ROV challenge,
+												an underwater robotics competition that challenges our team to create a remotely operated vehicle capable of
+												performing several tasks. Check out CURC or the MATE-ROV website for more info about this cool competition!
+											</p>
+											<ul class="actions">
+                                                <li><a href="https://www.columbiaroboticsclub.com/" class="button">CURC Website</a></li>
+                                                <li><a href="https://materovcompetition.org/" class="button">MATE-ROV Challenge</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								
+							</section>
+
+					</div>
+
+                    <div id="footer">
+                        <div class="inner">
+                            <ul class="icons">
+                                <li><a href="mailto:my@email" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+                                <li><a href="https://www.linkedin.com/in/william-hammond-8bb3a716b" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                                <li><a href="https://www.github.com/williamshammond" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                            </ul>
+                            <ul class="copyright">
+                                <li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+                            </ul>
+                        </div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
